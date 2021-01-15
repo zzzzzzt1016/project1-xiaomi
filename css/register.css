@@ -1,0 +1,215 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+html,body{
+
+	background: #F9F9F9;
+}
+
+.box{
+	width: 854px;
+	height: 572px;
+	background: #FFFFFF;
+	margin: 35px auto;
+	
+}
+.milogo{
+	margin-bottom: 35px;
+	text-align: center;
+}
+.zhuce{
+	font-size: 30px;
+	margin-bottom: 30px;
+	text-align: center;
+}
+.xinxi{
+	width: 332px;
+	height: 320px;
+	margin: 0 auto;
+	line-height: 20px;
+}
+
+
+.xinxi_1 .p1{
+	font-size: 14px;
+	
+}
+.xinxi_1 .p2{
+	font-size: 14px;
+	color: #5F5750;
+}
+.diqu{
+	width: 332px;
+	height: 40px;
+	border:1px solid gainsboro ;
+	margin: 5px 0;
+	color: #B0B0B0;
+}
+.diqu .diqu_1{
+	width: 280px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+	padding-left: 10px;
+}
+.diqu .diqu_2{
+	width: 40px;
+	height: 40px;
+	float: left;
+	border-left:1px solid gainsboro ;
+	color: #B0B0B0;
+	text-align: center;
+	line-height: 40px;
+}
+.xldq{
+	width: 333px;
+	height: 200px;
+	border: 1px solid #B0B0B0;
+	overflow-y: scroll;
+	display: none;
+	position: absolute;
+	z-index: 1;
+	background: #FFFFFF;
+}
+.xldq p{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #DCDCDC;
+	line-height: 40px;
+}
+.xldq p:hover{
+	background-color: #DCDCDC;
+}
+
+
+
+.xinxi_2{
+	margin-top: 20px;
+	
+	
+}
+.xinxi_2 .p1{
+	font-size: 14px;
+	
+}
+.xinxi_2 #sjhp{
+	font-size: 14px;
+	color: red;
+}
+.phone{
+	width: 332px;
+	height: 40px;
+	border:1px solid gainsboro ;
+	margin: 5px 0;
+}
+.phone .phone_1{
+	width: 60px;
+	height: 40px;
+	float: left;
+	border-right:1px solid gainsboro ;
+	cursor: pointer;
+	text-align: center;
+	line-height: 40px;
+	color: #808080;
+}
+.phone .phone_2{
+	width: 260px;
+	height: 40px;
+	float: left;
+	line-height: 40px;
+}
+#sjh{
+	width: 255px;
+	height: 35px;
+	border: 0;
+	font-size: 16px;
+	line-height: 40px;
+	outline-style: none;
+	margin-left: 5px;
+}
+
+.xlphone{
+	width: 333px;
+	height: 200px;
+	border: 1px solid #B0B0B0;
+	overflow-y: scroll;
+	display: none;
+	position: absolute;
+	z-index: 2;
+	background: #FFFFFF;
+}
+.xlphone p{
+	width: 100%;
+	height: 40px;
+	border-bottom: 1px solid #DCDCDC;
+}
+.xlphone p:hover{
+	background-color: #DCDCDC;
+}
+
+.ljzc{
+	width: 330px;
+	height: 40px;
+	margin-top: 20px;
+}
+#ljzc{
+	width: 330px;
+	height: 40px;
+	background: #FF6700;
+	outline-style: none;
+	border: 0;
+	color: white;
+	font-size: 16px;
+}
+#ljzc:hover{
+	background: #FF7F50;
+}
+.xieyi{
+	text-align: center;
+	color: #5F5750;
+	font-size: 14px;
+}
+.xieyi a{
+	color: black;
+	font-weight: 600;
+}
+
+.foot{
+	width: 854px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+}
+.foot li{
+	display: inline-block;
+	
+}
+.foot li a{
+	color: #373C42;
+	border-right: 1px solid gainsboro;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.foot ul{
+	width: 854px;
+	height: 25px;
+	text-align: center;
+}
+.foot p {
+	color: gray;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.foot p a{
+	color: #373C42;
+}
+

@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+li {
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo{
+	width: 1130px;
+	height: 98px;
+	margin: 0 auto;
+}
+.core{
+	width: 100%;
+	height: 588px;
+	background: url(../img/login.jpg)no-repeat center center;
+	background-size: cover;
+	position: relative;
+}
+.core .login{
+	width: 410px;
+	height: 558px;
+	background: white;
+	position: absolute;
+	top: 30px;
+	right: 200px;
+}
+.login_t{
+	width: 410px;
+	height: 80px;
+	padding: 24 0px;
+	text-align: center;
+	line-height: 80px;
+	
+}
+.line{
+	width: 1px;
+	height: 24px;
+	margin: 0 35px 0 42px;
+	border: 1px solid #e0e0e0;
+	background: #e0e0e0;
+}
+.login_t div{
+	display: inline-block;
+	cursor: pointer;
+}
+#a1{
+	font-size: 25px;
+	color: coral;
+	
+}
+#a2{
+	font-size: 25px;
+	color: #000000;
+}
+.login_b{
+	width: 410px;
+	height: 478px;
+	position: relative;
+}
+.login_b_1{
+	width: 410px;
+	height: 478px;
+	position: absolute;
+	text-align: center;
+}
+
+.login_b_1 #text1{
+	border: 0;
+	border: 1px solid #B0B0B0;
+	outline-style: none;
+	width: 320px;
+	height: 30px;
+	padding: 10px;
+	font-size: 16px;
+}
+.login_b_1 #text2{
+	border: 0;
+	border: 1px solid #B0B0B0;
+	outline-style: none;
+	width: 320px;
+	height: 30px;
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 10px;
+}
+.login_b_1 #but1{
+	border: 0;
+	outline-style: none;
+	width: 342px;
+	height: 50px;
+	font-size: 16px;
+	margin-top: 10px;
+	text-align: center;
+	background: #FF6700;
+	color: white;
+	margin-bottom: 10px;
+	cursor: pointer;
+}
+.login_b_1 p{
+	display: inline-block;
+	width: 342px;
+}
+.login_b_1 #text1p{
+	text-align: left;
+}
+.login_b_1 #text2p{
+	text-align: left;
+}
+.login_b_1 .p3{
+	color: #F56600;
+	font-size: 14px;
+	margin-bottom: 30px;
+	
+}
+.login_b_1 .p4 a{
+	color: #B0B0B0;
+	font-size: 14px;
+}
+
+.login_b_1 .p5{
+	margin-top: 100px;
+}
+.login_b_1 .p5 img{
+	width: 240px;
+	
+}
+
+.line1{
+	display: inline-block;
+	width: 1px;
+	height: 10px;
+	margin: 0 5px 0 5px;
+	border: 1px solid #e0e0e0;
+	background: #e0e0e0;
+}
+
+
+
+
+
+
+
+
+
+.login_b_2{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display:none;
+	background: white;
+	text-align: center;
+}
+.login_b_2 .p1{
+	margin-top: 170px;
+	margin-bottom: 20px;
+}
+.login_b_2 .p2 img{
+	width: 180px;
+	height: 180px;
+	margin-bottom: 10px;
+}
+.login_b_2 p{
+	color: gray;
+}
+.login_b_2 .p3 a{
+	color: coral;
+}
+
+
+
+
+
+
+.foot{
+	width: 854px;
+	height: 50px;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.foot li{
+	display: inline-block;
+	
+}
+.foot li a{
+	color: #373C42;
+	border-right: 1px solid gainsboro;
+	padding: 0 10px;
+	font-size: 14px;
+}
+.foot ul{
+	width: 854px;
+	height: 25px;
+	text-align: center;
+}
+.foot p {
+	color: gray;
+	font-size: 14px;
+	margin-top: 10px;
+}
+.foot p a{
+	color: gray;
+}
